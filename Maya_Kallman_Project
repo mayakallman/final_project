@@ -1,5 +1,5 @@
 # drawMan function shows different configuration of the hangman for each wrong guess
-def drawMman():
+def drawMan():
     if wrong_tries >= 7:
         print("   _______")
         print("|/      |")
